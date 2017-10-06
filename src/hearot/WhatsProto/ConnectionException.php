@@ -14,7 +14,7 @@ namespace hearot\WhatsProto;
  *  @method boolean __construct(string $message, int $code, string $previous) This method will throw an hearot\WhatsProto\ConnectionException
  *  @method string __toString() This will convert the Exception in a string
  */
-class CallMethodException extends \Exception
+class ConnectionException extends \Exception
 {
     public function __construct($message, $code = 0, $previous = null)
     {

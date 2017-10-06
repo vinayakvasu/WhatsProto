@@ -1,6 +1,7 @@
 <?php
+namespace hearot\WhatsProto;
 
-class WhatsProtoConstants
+class Constants
 {
     const WHATSAPP_EXIST_HOST = 'v.whatsapp.net/v2/exist';
     const WHATSAPP_REGISTER_HOST = 'v.whatsapp.net/v2/register';
@@ -16,7 +17,7 @@ class WhatsProtoConstants
     const WHATSAPP_DEVICE_OS_VERSION = '7.0';
     const WHATSAPP_DEVICE_MANUFACTER = 'Xiaomi';
     const WHATSAPP_USER_AGENT = 'WhatsApp/2.17.348 Android/7.0 Device/Xiaomi-HM_1SW';
-    const WHATSAPP_VERSION_CHECKER = 'https://coderus.openrepos.net/whitesoft/whatsapp_scratch'; 
+    const WHATSAPP_VERSION_CHECKER = 'https://coderus.openrepos.net/whitesoft/whatsapp_scratch';
     const DISCONNECTED_STATUS = 'disconnected';
     const CONNECTED_STATUS = 'connected';
     const TIMEOUT_SEC = 2;

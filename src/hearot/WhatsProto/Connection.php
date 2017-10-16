@@ -32,4 +32,14 @@ class Connection
     {
         return $this->socket !== null;
     }
+    public function disconnect()
+    {
+        if (is_resource($this->socket)) {
+            @socket_shutdown($this->socket, 2);
+            @socket_close($this->socket);
+        }
+        $this->socket = null;
+        $this->loginStatus = \hearot\WhatsProto\Constants::DISCONNECTED_STATUS;
+        \hearot\WhatsProto\Log('Connection: Disconnected from the server...', 'connection');
+    }
 }

@@ -12,12 +12,12 @@ class Constants
     const WHATSAPP_IOS_SERVERS = ['c.whatsapp.net', 'c1.whatsapp.net', 'c2.whatsapp.net', 'c3.whatsapp.net'];
     const WHATSAPP_POST_SERVERS = ['ios' => 'https://sro.whatsapp.net/client/iphone/iq.php', 'android' => 'https://sro.whatsapp.net/client/android/iq.php'];
     const WHATSAPP_PORT = 443;
-    const WHATSAPP_VERSION = '2.17.348';
+    const WHATSAPP_VERSION = '2.17.420';
     const WHATSAPP_DEVICE = 'armani';
     const WHATSAPP_DEVICE_OS = 'Android';
     const WHATSAPP_DEVICE_OS_VERSION = '7.0';
     const WHATSAPP_DEVICE_MANUFACTER = 'Xiaomi';
-    const WHATSAPP_USER_AGENT = 'WhatsApp/2.17.348 Android/7.0 Device/Xiaomi-HM_1SW';
+    const WHATSAPP_USER_AGENT = 'WhatsApp/2.17.420 Android/7.0 Device/Xiaomi-HM_1SW';
     const WHATSAPP_VERSION_CHECKER = 'https://coderus.openrepos.net/whitesoft/whatsapp_scratch';
     const DISCONNECTED_STATUS = 'disconnected';
     const CONNECTED_STATUS = 'connected';
